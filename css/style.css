@@ -1,0 +1,61 @@
+.user-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+body.dark {
+  background-color: #03121b;
+}
+
+body:not([class^=dark]) {
+  background: #e9e4e4;
+}
+
+.page {
+  border-radius: 6px !important;
+  overflow: hidden;
+}
+
+body.dark .page,
+body.dark .list-group-item {
+  background-color: #313131 !important;
+  color: white !important;
+}
+
+body:not([class^=dark]) .page {
+  background-color: white !important;
+}
+
+.text-black {
+  color: black !important;
+}
+
+.day {
+  text-align: center;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+}
+
+.plus {
+  justify-content: flex-end;
+}
+
+.messag {
+  justify-content: space-between;
+}
+
+.request {
+  font-size: 20px;
+}
+
+.cam {
+  width: 40px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

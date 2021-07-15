@@ -1,0 +1,56 @@
+.user-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+body.dark {
+  background-color: rgb(3, 18, 27);
+}
+
+body:not([class^="dark"]) {
+  background: rgb(233, 228, 228);
+}
+
+.page {
+  border-radius: 6px !important;
+  overflow: hidden;
+}
+
+body.dark .page,
+body.dark .list-group-item {
+  background-color: rgb(49, 49, 49) !important;
+  color: white !important;
+}
+
+body:not([class^="dark"]) .page {
+  background-color: white !important;
+}
+
+.text-black {
+  color: black !important;
+}
+.day {
+  text-align: center;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+}
+.plus {
+  justify-content: flex-end;
+}
+
+.messag {
+  justify-content: space-between;
+}
+
+.request {
+  font-size: 20px;
+}
+
+.cam {
+  width: 40px;
+  height: 40px;
+}
